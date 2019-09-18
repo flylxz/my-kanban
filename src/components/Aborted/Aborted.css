@@ -1,0 +1,75 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightgreen;
+  max-width: 90%;
+}
+
+.hi-priority-note {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(224, 32, 32);
+  max-width: 90%;
+}
+
+.normal-priority-note {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(197, 253, 44);
+  max-width: 90%;
+}
+
+.low-priority-note {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(51, 206, 37);
+  max-width: 90%;
+}
+
+.note-field {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.note-field:hover {
+  overflow: visible;
+  white-space: normal;
+}
+
+.buttons {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.green-button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0f0;
+  padding: 3px;
+  margin: 3px;
+}
+
+.red-button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f00;
+  padding: 3px;
+  margin: 3px;
+}

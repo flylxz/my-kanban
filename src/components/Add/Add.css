@@ -1,0 +1,9 @@
+.addButton {
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: yellow;
+  padding: 3px;
+  margin: 3px;
+}
